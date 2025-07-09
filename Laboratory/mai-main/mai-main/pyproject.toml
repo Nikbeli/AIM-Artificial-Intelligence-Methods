@@ -1,0 +1,54 @@
+[project]
+name = "mai"
+version = "1.0.0"
+description = "MAI Examples"
+authors = [
+    {name = "Aleksey Filippov", email = "al.filippov@ulstu.ru"}
+]
+readme = "readme.md"
+requires-python = ">=3.12,<3.13"
+
+[tool.poetry]
+package-mode = false
+
+#[[tool.poetry.source]]
+#name = "pytorch-cuda128"
+#url = "https://download.pytorch.org/whl/cu128"
+#priority = "explicit"
+
+[tool.poetry.dependencies]
+jupyter = "^1.1.1"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+flask = "^3.0.3"
+apiflask = "^2.2.0"
+flask-cors = "^5.0.0"
+scikit-learn = "^1.5.2"
+imbalanced-learn = "^0.12.3"
+featuretools = "^1.31.0"
+gymnasium = "^1.0.0"
+scikit-fuzzy = "^0.5.0"
+networkx = "^3.4.2"
+python-docx = "^1.1.2"
+spacy = "^3.7.5"
+# ru_core_news_lg = {url = "https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.7.0/ru_core_news_lg-3.7.0-py3-none-any.whl"}
+nltk = "^3.9.1"
+emoji = "^2.14.1"
+mahotas = "^1.4.18"
+pygad = "^3.4.0"
+keras = "^3.9.2"
+kagglehub = "^0.3.12"
+jax = "^0.6.0"
+torch = "^2.7.0"
+torchaudio = "^2.7.0"
+torchvision = "^0.22.0"
+#torch = { version = "^2.7.0+cu128", source = "pytorch-cuda128" }
+#torchaudio = { version = "^2.7.0+cu128", source = "pytorch-cuda128" }
+#torchvision = { version = "^0.22.0+cu128", source = "pytorch-cuda128" }
+gensim = "^4.3.3"
+bokeh = "^3.7.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

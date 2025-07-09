@@ -1,0 +1,38 @@
+{
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "editor.detectIndentation": false,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.sortImports": "explicit"
+    },
+    "editor.stickyScroll.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "debug.showVariableTypes": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "git.suggestSmartCommit": false,
+    "git.autofetch": true,
+    "git.openRepositoryInParentFolders": "always",
+    "git.confirmSync": false,
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.messageEnabled": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "notebook.lineNumbers": "on",
+    "notebook.output.minimalErrorRendering": true,
+}
