@@ -1,0 +1,17 @@
+{
+    "bitmapPath": "./Duel.bmp",
+    "unitSpawns": [
+        {
+            "x": 31,
+            "y": 9,
+            "rotation": "DOWN",
+            "teamId": 1
+        },
+        {
+            "x": 31,
+            "y": 53,
+            "rotation": "UP",
+            "teamId": 2
+        }
+    ]
+}

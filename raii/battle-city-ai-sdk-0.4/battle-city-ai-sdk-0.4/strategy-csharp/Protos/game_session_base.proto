@@ -1,0 +1,127 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "BattleCityAI.Contracts.GameSessionBase";
+
+package game_session_base;
+
+// Базовый сервис игровой сессии.
+service GameSessionBaseService {
+
+  // Подключение к игровой сессии.
+  rpc Connect(ConnectRequest) returns (ConnectReply);
+
+  // Подключение к игровой сессии.
+  rpc PlaySession(stream StrategyReaction) returns (stream GameFieldState);
+}
+
+// Тип блока.
+enum BlockType {
+	GRASS = 0; // Трава.
+	BRICK = 1; // Кирпич.
+	STONE = 2; // Камень.
+	WATER = 3; // Вода.
+}
+
+// Тип поворота.
+enum RotationType {
+	UP = 0; // Вверх.
+	RIGHT = 1; // Вправо.
+	DOWN = 2; // Вниз.
+	LEFT = 3; // Влево.
+}
+
+// Тип объекта.
+enum ObjectType {
+	BULLET = 0; // Снаряд (пуля).
+}
+
+// Запрос на подключение к игровой сессии.
+message ConnectRequest {
+	uint32 strategy_version = 1; // Версия стратегии.
+	string author_name = 2; // Имя автора стратегии.
+	string strategy_uuid = 3; // УИД стратегии.
+}
+
+// Ответ на подключение к игровой сессии.
+message ConnectReply {
+	string session_token = 1; // Собственно ключ сессии.
+	uint32 team_id = 2; // Номер команды (1, 2, 3, ...).
+	GameMapInfo map = 3; // Игровая карта.
+	repeated UnitInfo units = 4; // Юниты текущей команды.
+}
+
+// Состояние игрового поля.
+message GameFieldState {
+	uint32 current_tick = 1; // Текущий такт.
+	repeated TeamInfo teams = 2; // Команды.
+	repeated GameFieldBlocksDelta blocks_delta = 3; // Изменение блоков с предыдущего такта.
+	repeated ObjectInfo objects = 4; // Объекты.
+}
+
+// Сведения об игровой карте.
+message GameMapInfo {
+	uint32 width_blocks = 1; // Ширина (в блоках).
+	uint32 width_px = 2; // Ширина (в пикселях).
+	uint32 height_blocks = 3; // Высота (в блоках).
+	uint32 height_px = 4; // Высота (в пикселях).
+	uint32 teams_count = 5; // Количество команд.
+	repeated BlockType blocks = 6; // Блоки карты.
+}
+
+// Сведения о командах.
+message TeamInfo {
+	uint32 id = 1; // Номер команды (1, 2, 3, ...).
+	bool is_active = 2; // Флаг активности команды.
+	int32 score = 3; // Количество очков.
+	uint32 total_units = 4; // Общее количество юнитов.
+	uint32 current_units = 5; // Оставшееся количество юнитов.
+	repeated UnitInfo units = 6; // Юниты.
+	bool is_winner = 7; // Является победителем.
+	string strategy_uuid = 8; // УИД команды, отправленный при подключении.
+	uint32 strategy_version = 9; // Версия стратегии.
+	string author_name = 10; // Имя автора стратегии.
+}
+
+message GameFieldBlocksDelta {
+	uint32 x = 1; // Координата X.
+	uint32 y = 2; // Координата Y.
+	BlockType old_type = 3; // Старое состояние блока.
+	BlockType new_type = 4; // Новое состояние блока.
+}
+
+// Положение на карте и скорость.
+message PositionAndSpeed {
+	uint32 x_px = 1; // Координата X верхнего левого угла (по ширине).
+	uint32 y_px = 2; // Координата Y верхнего левого угла (по высоте).
+	RotationType rotation = 3; // Поворот.
+	uint32 speed = 4; // Текущая скорость.
+}
+
+// Сведения об объекте.
+message ObjectInfo {
+	PositionAndSpeed position_and_speed = 1; // Положение и скорость.
+	ObjectType type = 2; // Тип объекта.
+	uint32 team_id = 3; // ИД команды (1, 2, 3, ...).
+}
+
+// Сведения о юните стратегии (команды).
+message UnitInfo {
+	PositionAndSpeed position_and_speed = 1; // Положение и скорость.
+	uint32 id = 2; // ИД юнита (1, 2, 3...).
+	bool is_alive = 3; // Жив ли.
+	uint32 shoot_cooldown = 4; // Количество тактов до возможности выстрела (время охлаждения).
+}
+
+// Реакция стратегии на состояние игрового поля.
+message StrategyReaction {
+	uint32 current_tick = 1; // Текущий такт.
+	repeated StrategyReactionUnit units = 2; // Реакция юнитов.
+}
+
+// Описание реакции юнита.
+message StrategyReactionUnit {
+	uint32 id = 1; // ИД юнита (1, 2, 3...).
+	RotationType rotation = 2; // Поворот.
+	bool will_move = 3; // После поворота танк двигается.
+	bool will_shoot = 4; // В конце хода выстреливает снарядом.
+}
