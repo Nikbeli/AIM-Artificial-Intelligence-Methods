@@ -1,0 +1,15 @@
+<Project>
+    <PropertyGroup>
+        <NoWarn>NU1507;</NoWarn>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <SatelliteResourceLanguages>ru</SatelliteResourceLanguages>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Namespaces">
+        <AssemblyName>BattleCityAI.$(MSBuildProjectName)</AssemblyName>
+        <RootNamespace>BattleCityAI.$(MSBuildProjectName)</RootNamespace>
+    </PropertyGroup>
+</Project>

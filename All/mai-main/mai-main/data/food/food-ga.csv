@@ -1,0 +1,336 @@
+name,prt,fat,crb,cal
+Cows' milk,32.0,40.0,48.0,660.0
+Milk skim,36.0,0.0,52.0,360.0
+Buttermilk,9.0,5.0,13.0,127.0
+"Evaporated, undiluted",16.0,20.0,24.0,345.0
+Fortified milk,89.0,42.0,119.0,1.373
+Powdered milk,27.0,28.0,39.0,515.0
+"skim, instant",30.0,0.0,42.0,290.0
+"skim, non-instant",30.0,0.0,42.0,290.0
+Goats' milk,8.0,10.0,11.0,165.0
+(1/2 cup ice cream),24.0,24.0,70.0,690.0
+Cocoa,8.0,11.0,26.0,235.0
+skim. milk,18.0,4.0,13.0,128.0
+(cornstarch),9.0,10.0,40.0,275.0
+Custard,13.0,14.0,28.0,285.0
+Ice cream,6.0,18.0,29.0,300.0
+Ice milk,9.0,10.0,32.0,275.0
+Cream or half-and-half,4.0,15.0,5.0,170.0
+or whipping,2.0,44.0,3.0,430.0
+Cheese,30.0,11.0,6.0,240.0
+uncreamed,38.0,0.0,6.0,195.0
+Cheddar,4.0,6.0,0.0,70.0
+"Cheddar, grated cup",14.0,19.0,1.0,226.0
+Cream cheese,2.0,11.0,1.0,105.0
+Processed cheese,7.0,9.0,0.0,105.0
+Roquefort type,6.0,9.0,0.0,105.0
+Swiss,7.0,8.0,0.0,105.0
+Eggs raw,12.0,12.0,0.0,150.0
+Eggs Scrambled or fried,13.0,16.0,1.0,220.0
+Yolks,6.0,10.0,0.0,120.0
+Butter,0.0,11.0,0.0,100.0
+Butter,114.0,115.0,118.0,113.0
+Butter,114.0,115.0,118.0,113.0
+Hydrogenated cooking fat,0.0,100.0,0.0,665.0
+Lard,0.0,110.0,0.0,992.0
+Margarine,0.0,91.0,0.0,806.0
+"Margarine, 2 pat or",0.0,11.0,0.0,100.0
+Mayonnaise,0.0,12.0,0.0,110.0
+Corn oil,0.0,14.0,0.0,125.0
+Olive oil,0.0,14.0,0.0,125.0
+Safflower seed oil,0.0,14.0,0.0,125.0
+French dressing,0.0,6.0,2.0,60.0
+Thousand Island sauce,0.0,8.0,1.0,75.0
+Salt pork,3.0,55.0,0.0,470.0
+Bacon,4.0,8.0,1.0,95.0
+Beef,23.0,16.0,0.0,245.0
+Hamburger,21.0,17.0,0.0,245.0
+Ground lean,24.0,10.0,0.0,185.0
+Roast beef,16.0,36.0,0.0,390.0
+Steak,20.0,27.0,0.0,330.0
+"Steak, lean, as round",24.0,12.0,0.0,220.0
+Corned beef,22.0,10.0,0.0,185.0
+Corned beef hash canned,12.0,8.0,6.0,120.0
+Corned beef hash Dried,19.0,4.0,0.0,115.0
+Pot-pie,18.0,28.0,32.0,480.0
+Corned beef hash Stew,15.0,10.0,15.0,185.0
+chicken,23.0,9.0,0.0,185.0
+"Fried, breast or leg and thigh chicken",25.0,15.0,0.0,245.0
+Roasted chicken,25.0,20.0,0.0,290.0
+"Chicken livers, fried",22.0,14.0,2.3,140.0
+"Duck, domestic",16.0,28.0,0.0,370.0
+"Lamb, chop, broiled",24.0,35.0,0.0,480.0
+Leg roasted,20.0,14.0,0.0,314.0
+"Shoulder, braised",18.0,23.0,0.0,285.0
+"Pork, chop, 1 thick",16.0,21.0,0.0,260.0
+Ham pan-broiled,16.0,22.0,0.0,290.0
+"Ham, as ",13.0,13.0,0.0,170.0
+"Ham, canned, spiced",8.0,14.0,1.0,165.0
+Pork roast,21.0,24.0,0.0,310.0
+Pork sausage,18.0,44.0,0.0,475.0
+Turkey,27.0,15.0,0.0,265.0
+Veal,23.0,9.0,0.0,185.0
+Roast,13.0,14.0,0.0,305.0
+Clams,12.0,1.0,2.0,87.0
+Cod,28.0,5.0,0.0,170.0
+Crab meat,14.0,2.0,1.0,90.0
+Fish sticks fried,19.0,10.0,8.0,200.0
+Flounder,30.0,8.0,0.0,200.0
+Haddock,16.0,5.0,6.0,135.0
+Halibut,26.0,8.0,0.0,182.0
+Herring,22.0,13.0,0.0,211.0
+Lobster,18.0,1.0,0.0,92.0
+Mackerel,18.0,9.0,0.0,155.0
+Oysters,232.0,233.0,236.0,231.0
+Oyster stew,19.0,6.0,0.0,125.0
+Salmon,17.0,5.0,0.0,120.0
+Sardines,22.0,9.0,0.0,180.0
+Scallops,18.0,8.0,10.0,104.0
+Shad,20.0,10.0,0.0,170.0
+Shrimp,23.0,1.0,0.0,110.0
+Swordfish,27.0,6.0,0.0,180.0
+Tuna,25.0,7.0,0.0,170.0
+Artichoke,2.0,0.0,10.0,30.0
+Asparagus,1.0,0.0,3.0,18.0
+Beans,1.0,0.0,6.0,25.0
+Lima,8.0,0.0,24.0,140.0
+"Lima, dry, cooked",16.0,0.0,48.0,260.0
+"Navy, baked with pork",11.0,6.0,37.0,250.0
+Red kidney,15.0,1.0,42.0,230.0
+Bean sprouts,1.0,0.0,3.0,17.0
+Beet greens,2.0,0.0,6.0,27.0
+Beetroots,12.0,0.0,0.8,1.0
+Broccoli,5.0,0.0,8.0,45.0
+Brussels sprouts,6.0,0.0,12.0,60.0
+Sauerkraut,1.0,0.0,7.0,32.0
+Steamed cabbage,2.0,0.0,9.0,40.0
+Carrots,1.0,0.0,10.0,45.0
+"Raw, grated",1.0,0.0,10.0,45.0
+"Strips, from raw",0.0,0.0,5.0,20.0
+Cauliflower,3.0,0.0,6.0,30.0
+Celery,1.0,0.0,4.0,20.0
+Stalk raw,1.0,0.0,1.0,5.0
+Chard steamed,2.0,0.0,7.0,30.0
+Collards,5.0,0.0,8.0,51.0
+Corn,3.0,1.0,21.0,92.0
+cooked or canned,5.0,0.0,41.0,170.0
+Cucumbers,0.0,0.0,1.0,6.0
+Dandelion greens,5.0,1.0,16.0,80.0
+Eggplant,2.0,0.0,9.0,30.0
+Endive,1.0,0.0,2.0,10.0
+Kale,4.0,1.0,8.0,45.0
+Kohlrabi,2.0,0.0,9.0,40.0
+"Lambs quarters, steamed",5.0,0.0,7.0,48.0
+Lentils,15.0,0.0,38.0,212.0
+Lettuce,1.0,0.0,2.0,14.0
+Iceberg,0.0,0.0,3.0,13.0
+Mushrooms canned,2.0,0.0,4.0,12.0
+Mustard greens,3.0,0.0,6.0,30.0
+Okra,1.0,0.0,7.0,32.0
+Onions,2.0,0.0,18.0,80.0
+"Raw, green",0.0,0.0,5.0,22.0
+Parsley,0.0,0.0,0.0,2.0
+Parsnips,2.0,1.0,22.0,95.0
+Peas,3.0,0.0,13.0,66.0
+"Fresh, steamed peas",5.0,0.0,12.0,70.0
+Frozen peas,5.0,0.0,12.0,0.0
+Split cooked peas,8.0,0.0,21.0,115.0
+heated peas,3.0,0.0,10.0,53.0
+Peppers canned,0.0,0.0,2.0,10.0
+"Peppers Raw, green, sweet",1.0,0.0,6.0,25.0
+Peppers with beef and crumbs,19.0,9.0,24.0,255.0
+"Potatoes, baked",2.0,0.0,22.0,100.0
+French-fried,-1.0,7.0,20.0,155.0
+Potatoes Mashed with milk and butter,4.0,12.0,28.0,230.0
+"Potatoes, pan-tried",4.0,14.0,33.0,268.0
+Scalloped with cheese potatoes,6.0,8.0,14.0,145.0
+Steamed potatoes before peeling,2.0,0.0,19.0,80.0
+Potato chips,1.0,7.0,10.0,110.0
+Radishes,0.0,0.0,2.0,10.0
+Rutabagas,0.0,0.0,8.0,32.0
+Soybeans,22.0,11.0,20.0,260.0
+Spinach,3.0,0.0,3.0,26.0
+Squash,1.0,0.0,8.0,35.0
+"Winter, mashed",4.0,0.0,23.0,95.0
+Sweet potatoes,2.0,1.0,36.0,155.0
+Candied,2.0,6.0,80.0,235.0
+Tomatoes,2.0,0.0,9.0,50.0
+"Raw, 2 by 2 1/2",1.0,0.0,6.0,30.0
+Tomato juice,2.0,0.0,10.0,50.0
+Tomato catsup,0.0,0.0,4.0,15.0
+Turnip greens,4.0,1.0,8.0,45.0
+"Turnips, steamed",1.0,0.0,9.0,40.0
+"Watercress stems, raw",1.0,0.0,1.0,9.0
+Apple juice canned,0.0,0.0,34.0,125.0
+Apple vinegar,0.0,0.0,3.0,14.0
+"Apples, raw",0.0,0.0,18.0,70.0
+Stewed or canned,0.0,0.0,26.0,100.0
+Apricots,2.0,0.0,57.0,220.0
+"Dried, uncooked",4.0,0.0,50.0,220.0
+Fresh,1.0,0.0,14.0,55.0
+"Nectar, or juice",1.0,0.0,36.0,140.0
+Avocado,2.0,18.0,6.0,185.0
+Banana,1.0,0.0,23.0,85.0
+Blackberries,2.0,1.0,19.0,85.0
+Blueberries,1.0,0.0,65.0,245.0
+Cantaloupe,1.0,0.0,9.0,40.0
+Cherries,2.0,1.0,26.0,100.0
+"Fresh, raw",1.0,0.0,15.0,65.0
+Cranberry sauce sweetened,0.0,0.0,142.0,530.0
+Dates,4.0,0.0,134.0,505.0
+Figs,2.0,0.0,30.0,120.0
+"Fresh, raw figs",2.0,0.0,22.0,90.0
+figs Canned with syrup ,1.0,0.0,32.0,130.0
+"Fruit cocktail, canned",1.0,0.0,50.0,195.0
+Grapefruit sections,1.0,0.0,44.0,170.0
+"Grapefruit, fresh, 5"" diameter",1.0,0.0,14.0,50.0
+Grapefruit juice,1.0,0.0,24.0,100.0
+Grapes,1.0,0.0,16.0,70.0
+"European, as Muscat, Tokay",1.0,0.0,26.0,100.0
+Grape juice,1.0,0.0,42.0,160.0
+Lemon juice,0.0,0.0,10.0,30.0
+Lemonade concentratefrozen,0.0,0.0,112.0,430.0
+Limeade concentrate frozen,0.0,0.0,108.0,405.0
+Olives large,1.0,10.0,3.0,72.0
+OlivesRipe,1.0,13.0,1.0,105.0
+"Oranges 3"" diameter",2.0,0.0,16.0,60.0
+Orange juice,2.0,0.0,25.0,112.0
+Frozen ,2.0,0.0,78.0,330.0
+Papaya,1.0,0.0,18.0,75.0
+Peaches,1.0,0.0,52.0,200.0
+"Fresh, raw",1.0,0.0,10.0,35.0
+Pears,1.0,0.0,50.0,195.0
+"Raw, 3 by 2V",1.0,1.0,25.0,100.0
+Persimmons,1.0,0.0,20.0,75.0
+Pineapple,0.0,0.0,26.0,95.0
+Pineapple Crushed,1.0,0.0,55.0,205.0
+"Raw, diced",1.0,0.0,19.0,75.0
+Pineapple juice,1.0,0.0,32.0,120.0
+Plums,1.0,0.0,50.0,185.0
+"Raw, 2"" diameter",0.0,0.0,7.0,30.0
+Prunes,3.0,1.0,81.0,300.0
+Prune juice,1.0,0.0,45.0,170.0
+Raisins,2.0,0.0,82.0,230.0
+Raspberries,0.0,0.0,25.0,100.0
+"Raw, red",0.0,0.0,14.0,57.0
+Rhubarb sweetened,1.0,0.0,98.0,385.0
+Strawberries,1.0,0.0,60.0,242.0
+Raw,0.0,0.0,12.0,54.0
+Tangerines,1.0,0.0,10.0,40.0
+Watermelon,2.0,1.0,29.0,120.0
+Biscuits,3.0,4.0,18.0,130.0
+Bran flakes,3.0,0.0,32.0,117.0
+"Bread, cracked wheat",2.0,1.0,12.0,60.0
+Rye,2.0,1.0,12.0,55.0
+"White, 20 slices, or",39.0,15.0,229.0,1.225
+Whole-wheat,48.0,14.0,216.0,1.1
+Whole-wheat,2.0,1.0,11.0,55.0
+Corn bread ground meal,3.0,4.0,15.0,100.0
+Cornflakes,2.0,0.0,25.0,110.0
+Corn grits cooked,8.0,0.0,27.0,120.0
+Corn meal,9.0,4.0,74.0,360.0
+Crackers,1.0,1.0,10.0,55.0
+"Soda, 2 1/2 square",1.0,1.0,8.0,45.0
+Farina,3.0,0.0,22.0,105.0
+Flour,39.0,22.0,33.0,460.0
+Wheat (all purpose),12.0,1.0,84.0,400.0
+Wheat (whole),13.0,2.0,79.0,390.0
+Macaroni,5.0,1.0,32.0,155.0
+Baked with cheese,18.0,25.0,44.0,475.0
+Muffins,4.0,5.0,19.0,135.0
+Noodles,7.0,2.0,37.0,200.0
+Oatmeal,5.0,3.0,26.0,150.0
+"Pancakes 4"" diam.",7.0,9.0,28.0,250.0
+"Wheat, pancakes 4"" diam.",7.0,9.0,28.0,250.0
+"Pizza 14"" diam.",8.0,6.0,23.0,180.0
+Popcorn salted,3.0,7.0,20.0,152.0
+Puffed rice,0.0,0.0,12.0,55.0
+Puffed wheat presweetened,1.0,0.0,26.0,105.0
+Rice,15.0,3.0,154.0,748.0
+Converted,14.0,0.0,142.0,677.0
+White,14.0,0.0,150.0,692.0
+Rice flakes,2.0,0.0,26.0,115.0
+Rice polish,6.0,6.0,28.0,132.0
+Rolls,3.0,12.0,23.0,411.0
+of refined flour,3.0,2.0,20.0,115.0
+whole-wheat,4.0,1.0,20.0,102.0
+Spaghetti with meat sauce,13.0,10.0,35.0,285.0
+with tomatoes and cheese,6.0,5.0,36.0,210.0
+Spanish rice,4.0,4.0,40.0,217.0
+Shredded wheat biscuit,3.0,1.0,23.0,100.0
+Waffles,8.0,9.0,30.0,240.0
+Wheat germ,17.0,7.0,34.0,245.0
+Wheat-germ cereal toasted,20.0,7.0,36.0,260.0
+Wheat meal cereal unrefined,4.0,1.0,25.0,103.0
+"Wheat, cooked",12.0,1.0,35.0,275.0
+Bean soups,8.0,5.0,30.0,190.0
+Beef soup,6.0,4.0,11.0,100.0
+Bouillon,5.0,0.0,0.0,24.0
+chicken soup,4.0,2.0,10.0,75.0
+Clam chowder,5.0,2.0,12.0,85.0
+Cream soups,7.0,12.0,18.0,200.0
+Noodle,6.0,4.0,13.0,115.0
+Split-pea soup,8.0,3.0,25.0,147.0
+Tomato soup,6.0,7.0,22.0,175.0
+Vegetable,4.0,2.0,14.0,80.0
+Apple betty,1.0,4.0,29.0,150.0
+Bread pudding,11.0,12.0,56.0,374.0
+Cakes,3.0,0.0,23.0,110.0
+Chocolate fudge,5.0,14.0,70.0,420.0
+Cupcake,3.0,3.0,31.0,160.0
+Fruit cake,2.0,4.0,17.0,105.0
+Gingerbread,2.0,7.0,28.0,180.0
+"Plain, with no icing",4.0,5.0,31.0,180.0
+Sponge cake,3.0,2.0,22.0,115.0
+Candy,0.0,3.0,19.0,104.0
+Chocolate creams,0.0,4.0,24.0,130.0
+Fudge,0.0,12.0,80.0,370.0
+Hard candies,0.0,0.0,28.0,90.0
+Marshmallows,1.0,0.0,23.0,98.0
+Milk chocolate,2.0,6.0,44.0,290.0
+Chocolate syrup,0.0,0.0,22.0,80.0
+Doughnuts,2.0,7.0,17.0,135.0
+"Gelatin, made with water",4.0,0.0,36.0,155.0
+Honey,0.0,0.0,30.0,120.0
+Ice cream,0.0,0.0,0.0,250.0
+Ices,0.0,0.0,48.0,117.0
+preserves,0.0,0.0,14.0,55.0
+Jellies,0.0,0.0,13.0,50.0
+Molasses,0.0,0.0,11.0,45.0
+Cane Syrup,0.0,0.0,13.0,50.0
+"9"" diam. pie",3.0,13.0,53.0,330.0
+Cherry Pie,3.0,13.0,55.0,340.0
+Custard,7.0,11.0,34.0,265.0
+Lemon meringue,4.0,12.0,45.0,300.0
+Mince,3.0,9.0,62.0,340.0
+Pumpkin Pie,5.0,12.0,34.0,265.0
+Puddings Sugar,0.0,0.0,199.0,770.0
+3 teaspoons sugar,0.0,0.0,12.0,50.0
+"Brown, firm-packed, dark sugar",0.0,0.0,210.0,815.0
+Syrup,0.0,0.0,25.0,100.0
+table blends sugar,0.0,0.0,29.0,110.0
+Tapioca cream pudding,10.0,10.0,42.0,335.0
+Almonds,13.0,38.0,13.0,425.0
+roasted and salted,13.0,40.0,13.0,439.0
+Brazil nuts,10.0,47.0,7.0,457.0
+Cashews,12.0,32.0,20.0,392.0
+coconut sweetened,1.0,20.0,26.0,274.0
+Peanut butter,12.0,25.0,9.0,300.0
+"Peanut butter, natural",13.0,24.0,8.0,284.0
+Peanuts,13.0,25.0,9.0,290.0
+Pecans,5.0,35.0,7.0,343.0
+Sesame seeds,9.0,24.0,10.0,280.0
+Sunflower seeds,12.0,26.0,10.0,280.0
+Walnuts,7.0,32.0,8.0,325.0
+Beer,0.0,0.0,8.0,228.0
+Gin,0.0,0.0,0.0,70.0
+Wines,0.0,0.0,9.0,164.0
+Table (12.2% alcohol),0.0,0.0,5.0,100.0
+Carbonated drinks Artificially sweetened,0.0,0.0,0.0,0.0
+Club soda,0.0,0.0,0.0,0.0
+Cola drinks,0.0,0.0,38.0,137.0
+Fruit-flavored soda,0.0,0.0,42.0,161.0
+Ginger ale,0.0,0.0,28.0,105.0
+Root beer,0.0,0.0,35.0,140.0
+Coffee,0.0,0.0,1.0,3.0
+Tea,0.0,0.0,1.0,4.0
